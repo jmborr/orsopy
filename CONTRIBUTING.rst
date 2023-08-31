@@ -100,11 +100,11 @@ Pull Request Guidelines
 Before you submit a pull request of your feature branch against the `main` branch of the `orsopy` repository,
 check that it meets these guidelines:
 
-2. If the pull request adds functionality, the docs should be updated. Put
+1. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
-1. The pull request should include tests for the new functionality. Run the tests in your local machine with `pytest`.
-3. The pull request should work for Python 3.5, 3.6, 3.7 and 3.8, and for PyPy. To make sure that the tests pass
+2. The pull request should include tests for the new functionality. Run the tests in your local machine with `pytest`.
+3. The pull request should work for Python versions 3.6 through 3.11, and for PyPy. To make sure that the tests pass
    for all supported Python versions, you can first create a pull
    request of your feauture branch against the `main` branch _of your forked repository_. If the Github actions
    pass, it is highly likely that the GitHub actions will also pass for the pull request against the `main` branch
